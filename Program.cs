@@ -3,9 +3,6 @@
 // 2, 4 -> 16
 
 
-// Math.Pow(value, power);
-
-// 
 
 int Exponenta(int value, int power)
 {
@@ -16,7 +13,7 @@ int Exponenta(int value, int power)
     result = result * value;
   }
     
-    return (result);
+    return result;
 }
 
   Console.Write("Введите число A: ");
